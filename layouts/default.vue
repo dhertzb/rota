@@ -1,15 +1,19 @@
 <template>
-  <v-navbar />
   <div>
-    <Nuxt />
-  </div>
+    <v-navbar />
+    <div>
+      <Nuxt />
+    </div>
+    <v-footer />
 </div>
 </template>
 <script>
+import VFooter from '~/components/VFooter'
 import VNavbar from '~/components/VNavbar'
 export default {
   components:{
-    VNavbar
+    VNavbar,
+    VFooter
   }
 }
 </script>
@@ -20,6 +24,10 @@ body{
 @font-face {
   font-family: "montserrat";
   src: url("../assets/fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "montserrat-bold";
+  src: url("../assets/fonts/Montserrat-Bold.ttf");
 }
 @font-face {
   font-family: "nunito-light";

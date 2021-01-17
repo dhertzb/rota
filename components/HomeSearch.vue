@@ -1,6 +1,6 @@
 <template>
   <b-input-group>
-    <b-form-input size="lg" v-model="query" placeholder="Digite a carreira"></b-form-input>
+    <b-form-input size="lg" v-model="query" class="search" placeholder="Digite a carreira"></b-form-input>
      <b-input-group-append>
       <b-button @click="search" variant="outline-secondary" class="bg-blue">Pesquisar</b-button>
      </b-input-group-append>
@@ -27,6 +27,9 @@ export default {
   .bg-blue{
     background-color:rgb(244 88 66 / 1);
     color: white;
+    border: none;
+  }
+  .search{
     border: none;
   }
 </style>
