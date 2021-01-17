@@ -1,5 +1,4 @@
 <template>
-<div>
   <v-navbar />
   <div>
     <Nuxt />

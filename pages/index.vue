@@ -1,5 +1,4 @@
 <template>
-  <div>
     <section class="home__main">
       <b-container fluid="xl">
         <b-row class="main__row">

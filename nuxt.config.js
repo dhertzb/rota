@@ -1,17 +1,6 @@
-export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'Rota',
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
-  },
-
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
   ],
@@ -19,6 +8,18 @@ export default {
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
   ],
+=======
+      { hid: 'description', name: 'description', content: '' },
+    ],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+  },
+
+  // Global CSS (https://go.nuxtjs.dev/config-css)
+  css: [],
+
+  // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
+  plugins: [],
+>>>>>>> 33fc8c4894009c67112f9eace09170461f45e3a4
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
