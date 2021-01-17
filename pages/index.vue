@@ -8,7 +8,7 @@
               <h1 class="main__title">
                 Encontre seu caminho para o <span class="underline">sucesso.</span>  
               </h1>
-              <h3 class="main__subtitle">Trilhas de conhecimento para atingir o apice da sua carreira.</h3>
+              <h3 class="main__subtitle">Trilhas de conhecimento para atingir o ápice da sua carreira.</h3>
             </div>
             <home-search />
           </b-col>
@@ -28,7 +28,7 @@
             </b-col>
             <b-col md="6">
               <h2 class="principles__title">Como funciona?</h2>
-              <h3 class="principles__subtitle w-75 my-4">Roteiros, artigos, guias, questionários, dicas e recursos baseados na comunidade. Facilitam planos de carreira e o desenvolvimento de sua profissão</h3>
+              <h3 class="principles__subtitle w-75 my-4">No rumo a pessoa pode buscar sobre a carreira que tiver interesse digitando o que procura ou através de uma lista de possibilidades.</h3>
               <b-button pill class="bg-red" size="lg">Ver carreiras</b-button>  
             </b-col>
           </b-row>
